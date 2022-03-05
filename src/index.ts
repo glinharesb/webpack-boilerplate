@@ -1,5 +1,12 @@
 import './index.scss';
 
-const teste: string = 'oi';
+declare global {
+  interface Window {
+    oi: string;
+  }
+}
+
+const teste: string = 'aquii';
 
 console.log(teste);
+console.log(window?.oi);
