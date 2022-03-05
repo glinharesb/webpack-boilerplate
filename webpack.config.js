@@ -19,9 +19,6 @@ module.exports = (env) => {
       filename: '[name].min.js',
       clean: true,
     },
-    resolve: {
-      extensions: ['.js', '.jsx', '.ts', '.tsx'],
-    },
     module: {
       rules: [
         {
