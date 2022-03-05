@@ -1,5 +1,7 @@
 import './index.scss';
 
+import './react_test.tsx';
+
 declare global {
   interface Window {
     oi: string;
